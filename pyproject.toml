@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lecture-lib"
+version = "0.1.0"
+description = "a utility functions for python and machine learning lectures for beginners"
+authors = ["Yasunori Horikoshi <hotoku@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "lecture_lib"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
