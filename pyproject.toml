@@ -9,6 +9,8 @@ packages = [{include = "lecture_lib"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+gdown = "^4.6.0"
+pandas = "^1.5.3"
 
 
 [build-system]
