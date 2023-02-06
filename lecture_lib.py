@@ -25,14 +25,14 @@ def download_csv():
     sales = pd.read_sql_query("""
     select * from sales
     """, con)
-    sales.to_csv("sales.csv")
+    sales.to_csv("sales.csv", index=False)
 
     stores = pd.read_sql_query("""
     select * from stores
     """, con)
-    stores.to_csv("stores.csv")
+    stores.to_csv("stores.csv", index=False)
 
     features = pd.read_sql_query("""
     select * from features
     """, con)
-    features.to_csv("features.csv")
+    features.to_csv("features.csv", index=False)
