@@ -7,8 +7,9 @@ license = "MIT"
 readme = "README.md"
 packages = [{include = "lecture_lib"}]
 
+
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 gdown = "^4.6.0"
 pandas = "^1.5.3"
 
